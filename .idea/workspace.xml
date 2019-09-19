@@ -2,31 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="412b6d47-87c5-498d-bf16-49e1d194d895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Footer/Footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Studio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Works/CardItem/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Works/CardItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Works/Work.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loyouts/About/About.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loyouts/About/TeamItem/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loyouts/About/TeamItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Lending/Landing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loyouts/Works/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loyouts/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loyouts/Footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loyouts/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loyouts/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loyouts/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loyouts/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loyouts/Header/Header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loyouts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loyouts/Lending/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loyouts/Studio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loyouts/About/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loyouts/Works/CardItem/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loyouts/Works/CardItem/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loyouts/Works/CardItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loyouts/Works/CardItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loyouts/Works/Work.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +46,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/loyouts/AboutUs" />
+      <recent name="$PROJECT_DIR$/src/components/loyouts/Lending" />
       <recent name="$PROJECT_DIR$/src/components/loyouts/Works" />
       <recent name="$PROJECT_DIR$/src/components/loyouts/Footer" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/components/loyouts/Header" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,7 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568798140591</updated>
-      <workItem from="1568798142422" duration="21365000" />
+      <workItem from="1568798142422" duration="21421000" />
+      <workItem from="1568874149822" duration="23857000" />
     </task>
     <servers />
   </component>
@@ -108,7 +103,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,0 +1,46 @@
+.Landing {
+	z-index: 0;
+	position: relative;
+	min-height: 75vh;
+	background: url("../../../img/background.jpeg") no-repeat right;
+	background-size: cover;
+	padding-top: 15vh;
+
+	.title {
+		position: absolute;
+		top: 24%;
+		right: 0;
+		margin: 0 auto;
+		background: rgba(0, 0, 0, 0.6);
+		border-radius: 6px 0 0 6px;
+		padding: 14px;
+		max-width: 75%;
+		color: white;
+		font-size: 30px;
+		transition: all .3s ease-in;
+		text-align: center;
+
+		&:hover {
+			box-shadow: -1px 1px 7px 0px #49c5b6;
+		}
+	}
+
+}
+
+@media (max-width: 767px) {
+	.Landing {
+		.title {
+			top: 55%;
+			width: 80%;
+			transform: translate(-50%, -50%);
+			border-radius: 6px;
+			margin: 0 auto;
+			left: 50%;
+			font-size: 1.5em;
+
+			&:hover {
+				box-shadow: unset;
+			}
+		}
+	}
+}

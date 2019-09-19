@@ -1,0 +1,26 @@
+.About {
+	z-index: 0;
+	min-height: 90vh;
+	background: url("../../../img/background_2.jpg") no-repeat center;
+	background-size: cover;
+	padding: 0 15px 46px;
+	box-sizing: border-box;
+
+	.title {
+		position: relative;
+		padding-top: 15vh;
+		color: #ffffff;
+		font-size: 4em;
+		text-align: center;
+		margin: 0;
+	}
+}
+
+.shadow {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;;
+}

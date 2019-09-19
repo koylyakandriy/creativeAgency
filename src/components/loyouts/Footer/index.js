@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Footer.scss'
 
-const Footer = () => {
+const Index = () => {
 	return (
 		<footer className="Footer">
 			<div className="list">
@@ -18,4 +18,4 @@ const Footer = () => {
 	);
 };
 
-export default Footer;
+export default Index;

@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Container from "@material-ui/core/Container";
 
-import Header from "./components/loyouts/Header/Header";
-import Work from "./components/loyouts/Works/Work";
-import Footer from "./components/loyouts/Footer/Footer";
-import Studio from "./components/loyouts/Studio";
+import Header from "./components/loyouts/Header";
+import Works from "./components/loyouts/Works";
+import Footer from "./components/loyouts/Footer";
+import About from "./components/loyouts/About";
 import Contacts from "./components/loyouts/Contacts";
+import Landing from "./components/loyouts/Lending";
 
 import './style.scss'
 
@@ -15,19 +15,19 @@ const App = () => {
 		<Router>
 			<Fragment>
 				<Header/>
-				<Container component="main" maxWidth="md">
+				<main>
 					<Switch>
-						<Route exact path="/" component={ Work }/>
-						<Route exact path="/studio" component={ Studio }/>
+						<Route exact path="/" component={ Landing }/>
+						<Route exact path="/works" component={ Works }/>
+						<Route exact path="/studio" component={ About }/>
 						<Route exact path="/contacts" component={ Contacts }/>
+					
 					</Switch>
-				</Container>
-				
+				</main>
 				<Footer/>
-			
 			</Fragment>
+		
 		</Router>
-	
 	);
 };
 
