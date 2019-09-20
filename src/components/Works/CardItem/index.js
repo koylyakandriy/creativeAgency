@@ -13,7 +13,9 @@ import {
 
 const useStyles = makeStyles({
   root: {
-    padding: "15px"
+    padding: "15px",
+    maxWidth: "1200px",
+    margin: "0 auto"
   },
   card: {
     maxWidth: 345,

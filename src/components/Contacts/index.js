@@ -67,8 +67,13 @@ const Contacts = ({ history }) => {
     });
 
   const onSubmit = e => {
+    // prevent default browser behaviour
     e.preventDefault();
+
+    // display received info to user
     alert(`Your name: ${name} \n Your phone: ${phone}`);
+
+    // redirect after form submit
     history.push("/");
   };
 
@@ -92,6 +97,7 @@ const Contacts = ({ history }) => {
               onChange={e => handleChange(e)}
               labelWidth={labelWidth}
               placeholder="Your Name"
+              required
             />
           </FormControl>
 
@@ -107,6 +113,7 @@ const Contacts = ({ history }) => {
               onChange={e => handleChange(e)}
               labelWidth={labelWidth}
               placeholder="Phone Number"
+              required
             />
           </FormControl>
 
