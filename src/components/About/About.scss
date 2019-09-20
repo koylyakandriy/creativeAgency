@@ -1,10 +1,11 @@
 .About {
 	z-index: 0;
 	min-height: 90vh;
-	background: url("../../../img/background_2.jpg") no-repeat center;
+	background: url("../../assets/background_2.jpg") no-repeat center;
 	background-size: cover;
 	padding: 0 15px 46px;
 	box-sizing: border-box;
+	position: relative;
 
 	.title {
 		position: relative;

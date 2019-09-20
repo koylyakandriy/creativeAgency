@@ -1,0 +1,100 @@
+.MuiToolbar-root {
+  .MuiListItem-root {
+    width: auto;
+
+    &:hover {
+      background: #49c5b6;
+      border-radius: 6px;
+      transition: all 0.5s ease;
+    }
+  }
+
+  .MuiTypography-root {
+    .title-link {
+      color: rgba(73, 197, 182, 1);
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      text-shadow: 1px 1px 0 black;
+      cursor: pointer;
+    }
+  }
+
+  .burger,
+  .open-burger {
+    position: relative;
+    border-radius: 25px;
+    height: 5px;
+    width: 40px;
+    display: inline-block;
+    background: #49c5b6;
+
+    &:before,
+    &:after {
+      content: "";
+      border-radius: 25px;
+      position: absolute;
+      height: 5px;
+      width: 40px;
+      background: #49c5b6;
+      transition: all 0.5s ease-in-out;
+      cursor: pointer;
+    }
+
+    &:before {
+      top: -10px;
+    }
+
+    &:after {
+      top: 10px;
+    }
+  }
+
+  .open-burger {
+    height: 0;
+
+    &:before,
+    &:after {
+      top: 0;
+    }
+
+    &:before {
+      transform: rotate(45deg);
+    }
+
+    &:after {
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.MuiPopover-paper {
+  top: 10vh !important;
+  max-width: 100% !important;
+  position: absolute;
+  left: 0 !important;
+  right: 0;
+  border-radius: 0 0 8px 8px !important;
+  background: rgba(255, 255, 255, 0.9);
+
+  .MuiList-root {
+    display: flex;
+    justify-content: center;
+
+    .MuiButtonBase-root {
+      transition: all 0.3s ease;
+    }
+
+    .MuiButtonBase-root:hover {
+      background: #49c5b6;
+      border-radius: 6px;
+      transition: all 0.5s ease;
+    }
+  }
+}
+
+@media (max-width: 374px) {
+  .MuiToolbar-root .MuiTypography-root .title-link {
+    font-size: 20px;
+  }
+}
