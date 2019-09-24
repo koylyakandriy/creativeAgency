@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/creativeAgency/static/css/main.58f87762.chunk.css",
+    "main.js": "/creativeAgency/static/js/main.831f8b10.chunk.js",
+    "main.js.map": "/creativeAgency/static/js/main.831f8b10.chunk.js.map",
+    "runtime~main.js": "/creativeAgency/static/js/runtime~main.9921e45f.js",
+    "runtime~main.js.map": "/creativeAgency/static/js/runtime~main.9921e45f.js.map",
+    "static/js/2.1741a26a.chunk.js": "/creativeAgency/static/js/2.1741a26a.chunk.js",
+    "static/js/2.1741a26a.chunk.js.map": "/creativeAgency/static/js/2.1741a26a.chunk.js.map",
+    "index.html": "/creativeAgency/index.html",
+    "precache-manifest.40884c55be137a0962d3ae37099bce23.js": "/creativeAgency/precache-manifest.40884c55be137a0962d3ae37099bce23.js",
+    "service-worker.js": "/creativeAgency/service-worker.js",
+    "static/css/main.58f87762.chunk.css.map": "/creativeAgency/static/css/main.58f87762.chunk.css.map",
+    "static/media/Landing.scss": "/creativeAgency/static/media/background.56cf59e5.jpeg",
+    "static/media/About.scss": "/creativeAgency/static/media/background_2.166f22a9.jpg",
+    "static/media/boy.png": "/creativeAgency/static/media/boy.740fc817.png",
+    "static/media/girl.png": "/creativeAgency/static/media/girl.74da0721.png",
+    "static/media/images.jpeg": "/creativeAgency/static/media/images.6a5cafca.jpeg",
+    "static/media/man (1).png": "/creativeAgency/static/media/man (1).7dfe6cc4.png",
+    "static/media/man.png": "/creativeAgency/static/media/man.bd80794f.png"
+  }
+}
